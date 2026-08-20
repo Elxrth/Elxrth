@@ -47,8 +47,9 @@ I like building things from scratch, experimenting with unusual ideas and turnin
 ---
 
 ## Projects
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Elxrth&layout=compact&langs_count=6)](https://github.com/Elxrth)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=compact&langs_count=6&hide_border=true" alt="Most Used Languages">
+</p>
 
 ### NFF — Normalized Factor Flow
 
