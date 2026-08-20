@@ -1,20 +1,32 @@
-<text
+<svg width="1024" height="400" viewBox="0 0 1024 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ton blob/image ici -->
+
+  <text
     x="512"
     y="250"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
     font-size="76"
     font-weight="800"
     letter-spacing="-4"
->
+    fill="white"
+  >
     Lino Canonne
-</text>
+  </text>
 
-<text
+  <text
     x="512"
     y="305"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
     font-size="22"
     font-weight="500"
     letter-spacing="9"
     opacity="0.65"
->
+    fill="white"
+  >
     INDIE DEV
-</text>
+  </text>
+
+</svg>
