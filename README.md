@@ -4,8 +4,6 @@
 
 <br>
 
-# Lino Canonne
-
 ### Indie Developer
 
 I build software, experiments and weird things.
