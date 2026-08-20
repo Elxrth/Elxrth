@@ -47,14 +47,8 @@ I like building things from scratch, experimenting with unusual ideas and turnin
 ---
 
 ## Projects
-<div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=TON_USERNAME&layout=donut&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=ffffff"
-  height="200"
-/>
-
-</div>
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Elxrth&layout=compact&langs_count=6)](https://github.com/Elxrth)
 
 ### NFF — Normalized Factor Flow
 
