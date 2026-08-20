@@ -48,6 +48,8 @@ I like building things from scratch, experimenting with unusual ideas and turnin
 
 ## Projects
 
+[![Top Langs](https://vercel.app)](https://github.com)
+
 ### NFF — Normalized Factor Flow
 
 An experimental mathematical framework based on normalized factor flows.
