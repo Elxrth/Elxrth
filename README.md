@@ -47,8 +47,7 @@ I like building things from scratch, experimenting with unusual ideas and turnin
 ---
 
 ## Projects
-
-[![Top Langs](https://vercel.app)](https://github.com)
+[![Top Langs](https://vercel.app)](https://github.com/stats-organization/github-stats-extended)
 
 ### NFF — Normalized Factor Flow
 
