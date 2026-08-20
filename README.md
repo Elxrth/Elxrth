@@ -1,14 +1,20 @@
-## Hi there 👋
+<text
+    x="512"
+    y="250"
+    font-size="76"
+    font-weight="800"
+    letter-spacing="-4"
+>
+    Lino Canonne
+</text>
 
-**Elxrth/Elxrth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<text
+    x="512"
+    y="305"
+    font-size="22"
+    font-weight="500"
+    letter-spacing="9"
+    opacity="0.65"
+>
+    INDIE DEV
+</text>
