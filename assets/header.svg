@@ -1,47 +1,125 @@
 <svg
-    width="1024"
-    height="400"
-    viewBox="0 0 1024 400"
+    viewBox="0 0 1000 500"
     xmlns="http://www.w3.org/2000/svg"
 >
 
-    <!-- Blob -->
-    <image
-        href="https://raw.githubusercontent.com/Elxrth/Elxrth/blob/main/assets/blob.png"
-        x="0"
-        y="0"
-        width="1024"
-        height="400"
-        preserveAspectRatio="xMidYMid slice"
+  <defs>
+
+    <!-- Gradient du blob -->
+    <radialGradient
+      id="blob-gradient"
+      r="100%"
+      cx="50%"
+      cy="50%"
+    >
+      <stop offset="0%" stop-color="#7052fa"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <!-- Forme du blob -->
+    <clipPath id="blob-clip">
+      <path d="
+        M824.5 637.5
+        Q659 775 489.5 793.5
+        T202 656
+        Q84 500 173.5 294.5
+        T468 145
+        Q673 201 831.5 350.5
+        T824.5 637.5
+        Z
+      "/>
+    </clipPath>
+
+    <!-- Grain -->
+    <filter
+      id="grain"
+      x="-50%"
+      y="-50%"
+      width="200%"
+      height="200%"
+    >
+      <feTurbulence
+        type="fractalNoise"
+        baseFrequency="2.5"
+        numOctaves="100"
+        stitchTiles="stitch"
+        result="noise"
+      />
+
+      <feColorMatrix
+        in="noise"
+        type="saturate"
+        values="0"
+        result="desaturatedNoise"
+      />
+
+      <feComponentTransfer
+        in="desaturatedNoise"
+        result="theNoise"
+      >
+        <feFuncA
+          type="table"
+          tableValues="0 0 0.05 0"
+        />
+      </feComponentTransfer>
+
+      <feBlend
+        in="SourceGraphic"
+        in2="theNoise"
+        mode="soft-light"
+      />
+    </filter>
+
+  </defs>
+
+
+  <!-- ========================= -->
+  <!--          BLOB              -->
+  <!-- ========================= -->
+
+  <g
+    filter="url(#grain)"
+    clip-path="url(#blob-clip)"
+  >
+    <rect
+      x="0"
+      y="0"
+      width="1000"
+      height="1000"
+      fill="url(#blob-gradient)"
     />
+  </g>
 
-    <!-- Nom -->
-    <text
-        x="512"
-        y="250"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="76"
-        font-weight="800"
-        letter-spacing="-4"
-        fill="white"
-    >
-        Lino Canonne
-    </text>
 
-    <!-- Sous-titre -->
-    <text
-        x="512"
-        y="305"
-        text-anchor="middle"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="22"
-        font-weight="500"
-        letter-spacing="9"
-        fill="white"
-        opacity="0.65"
-    >
-        INDIE DEV
-    </text>
+  <!-- ========================= -->
+  <!--           TEXT             -->
+  <!-- ========================= -->
+
+  <text
+    x="500"
+    y="250"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="76"
+    font-weight="800"
+    letter-spacing="-4"
+    fill="white"
+  >
+    Lino Canonne
+  </text>
+
+  <text
+    x="500"
+    y="305"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    font-weight="500"
+    letter-spacing="9"
+    fill="white"
+    opacity="0.65"
+  >
+    INDIE DEV
+  </text>
 
 </svg>
