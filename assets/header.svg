@@ -5,9 +5,9 @@
     xmlns="http://www.w3.org/2000/svg"
 >
 
-    <!-- Blob en arrière-plan -->
+    <!-- Blob -->
     <image
-        href="./blob.png"
+        href="https://raw.githubusercontent.com/Elxrth/Elxrth/main/assets/blob.png"
         x="0"
         y="0"
         width="1024"
@@ -38,8 +38,8 @@
         font-size="22"
         font-weight="500"
         letter-spacing="9"
-        opacity="0.65"
         fill="white"
+        opacity="0.65"
     >
         INDIE DEV
     </text>
