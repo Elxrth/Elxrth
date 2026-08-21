@@ -29,8 +29,6 @@ I like building things from scratch, experimenting with unusual ideas and turnin
 
 ![Python](https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white)
 ![Lua](https://img.shields.io/badge/Luau-000?style=flat-square&logo=lua&logoColor=white)
-![C%23](https://img.shields.io/badge/C%23-000?style=flat-square&logo=csharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-000?style=flat-square&logo=javascript&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-000?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-000?style=flat-square&logo=css3&logoColor=white)
 
