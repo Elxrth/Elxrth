@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header.svg" width="100%" alt="Lino Canonne — Indie Dev">
+<img src="./assets/header.svg" width="100%" alt="Elxrth — Indie Dev">
 
 <br>
 
