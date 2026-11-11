@@ -19,7 +19,7 @@ I build software, experiments and weird things.
 
 ## About
 
-I'm an indie developer interested in software, game development, artificial intelligence and experimental technologies.
+I'm an indie developer interested in software, artificial intelligence and experimental technologies.
 
 I like building things from scratch, experimenting with unusual ideas and turning concepts into working systems.
 
